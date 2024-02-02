@@ -13,9 +13,9 @@ export default function Home() {
       <div className="lg:basis-[85%] md:basis-[92%]">
         <div className="flex flex-col">
           <Navbar />
-          <div className="flex lg:flex-row flex-col">
+          <div className="flex flex-col lg:flex-row">
             <Dashboard />
-            <div>
+            <div className="flex flex-col md:flex-row md:gap-0 lg:flex-col">
               <RecentActivity
                 time={"10.40 AM, Fri 10 Sept 2024"}
                 title={"You Posted a New Job"}

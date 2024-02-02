@@ -14,7 +14,7 @@ const UpcomingSchedule = ({ day, date }) => {
             <span className="text-[12px] lg:text-base">{day},</span>
             <span className="text-[12px] lg:text-base text-nowrap">{date}</span>
             <span>
-              <ChevronDown className="size-6 cursor-pointer" />
+              <ChevronDown className="cursor-pointer size-6" />
             </span>
           </span>
         </div>

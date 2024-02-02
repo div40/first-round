@@ -9,7 +9,7 @@ import { FaGear } from "react-icons/fa6";
 const Sidebar = () => {
   return (
     <div className="bg-[#FAFAFA] min-h-[150vh]">
-      <div className="items-center justify-center hidden pt-8 mr-2 lg:flex">
+      <div className="items-center justify-center hidden pt-8 mr-2 cursor-pointer lg:flex">
         <svg
           width="144"
           height="38"
@@ -91,7 +91,7 @@ const Sidebar = () => {
           </defs>
         </svg>
       </div>
-      <div className="items-center justify-center hidden pt-8 md:block lg:hidden">
+      <div className="items-center justify-center hidden pt-8 cursor-pointer md:block lg:hidden">
         <svg
           width="68"
           height="44"
