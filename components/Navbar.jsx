@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="flex items-center gap-2 md:gap-4 justify-between px-4 lg:px-[50px] md:px-[20px] md:pt-8 pt-4 md:pb-6 pb-2  min-w-full border-b">
       <div className="flex items-center md:bg-[#fafafa] justify-between px-4 py-[10px] focus:outline-none md:border border-[#E0E0E0] rounded-[4px] lg:w-[350px] md:w-[253px]">
         <Menu
-          className="mr-2 -ml-4 md:hidden lg:hidden md:block sm:block text-neutral-400"
+          className="mr-2 -ml-4 md:hidden lg:hidden sm:block text-neutral-400"
           size={36}
         />
         <input
