@@ -5,7 +5,7 @@ import AnnouncementInfo from "./AnnouncementInfo";
 const Announcement = ({ day, date }) => {
   return (
     <div className="mt-10 border border-[#E0E0E0] rounded-[12px] py-3 lg:px-5 px-2">
-      <div className="flex justify-between">
+      <div className="flex justify-between px-4 lg:px-0">
         <span className="text-[#161E54] leading-7 font-medium lg:text-2xl text-md">
           Announcement
         </span>
@@ -17,7 +17,7 @@ const Announcement = ({ day, date }) => {
           </span>
         </span>
       </div>
-      <div className="flex flex-col gap-4 lg:mt-8 mt-2 px-4 lg:px-0">
+      <div className="flex flex-col gap-4 px-4 mt-2 lg:mt-8 lg:px-0">
         <AnnouncementInfo
           title={"Outing schedule for every department"}
           time={"5 Minutes ago"}
@@ -27,7 +27,7 @@ const Announcement = ({ day, date }) => {
           time={"Yesterday, 12:30 PM"}
         />
         <AnnouncementInfo
-          title={"IT Department needs two more talents for UI/UX"}
+          title={"IT Department needs two more talents"}
           time={"Yesterday, 09:15 AM"}
         />
       </div>
